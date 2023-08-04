@@ -1,39 +1,41 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-Welcome,
-
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **July 26th, 2023**
-
-## Codeanywhere Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
-
-`python3 -m http.server`
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+#Portlaoise PubCrawl 
+##Mission
+<p>Welcome to our PubCrawl Website! Our mission is to deliver essential information and entertainment, offering a unique day historic tour through the city and an exciting night pub tour. We prioritize responsible pub crawling to ensure a safe and enjoyable experience for all participants</p>.
+##Vision: 
+<p>Our vision is to create a different and memorable experience, providing a fresh perspective on the city's history and pub scene.We aim to bring out the best of the city and its pubs, ensuring a safe and enjoyable adventure.</p>
+##Scope: 
+<p>This website strikes a perfect equilibrium between captivating pictures of the city and providing relevant information about our tours. We offer an easy booking system, essential address and map details, customer reviews, and a comprehensive event agenda.</p>
+##Features:
+###Homepage:
+<ul>
+<li>A visually appealing banner showcasing iconic city landmarks and lively pubs.</li>
+<li>A brief introduction to our day historic tour and night pub tour.</li>
+<li>"Book Now" buttons for both tours for quick reservations.</li>
+</ul>
+###About Us:
+<ul>
+<li>Detailed information about our mission, vision, and commitment to responsible pub crawling.</li>
+<li>An overview of our experienced team members and their passion for the city's history and culture.</li>
+###Day Historic Tour:
+<li>An exciting description of the day historic tour, highlighting key landmarks and historical spots.</li>
+<li>A gallery of captivating images showcasing the city's rich history and culture.</li>
+<li>Tour schedule, duration, and essential details.</li>
+<li>"Book Now" button for convenient reservations.</li>
+###Night Pub Tour:
+<li>An enticing description of the night pub tour, featuring popular pubs and entertainment spots.</li>
+<li>High-quality images of vibrant nightlife scenes and enthusiastic participants.</li>
+<li>Tour schedule, duration, and essential details.</li>
+<li>"Book Now" button for easy reservations.</li>
+###Address and Map:
+<li>Clear address details and contact information for easy communication.</li>
+<li>An interactive map with marked locations for our meeting point and each pub on the tour.</li>
+###Reviews:
+<li>Customer testimonials and reviews from past participants, sharing their memorable experiences.</li>
+<li>Star ratings for each tour and overall satisfaction.</li>
+###Event Agenda:
+<li>A well-organized calendar displaying upcoming tour dates and availability.</li>
+<li>Event details, including themes or special features.</li>
+Drinking Tips:
+<li>A dedicated section on responsible drinking guidelines and tips.</li>
+<li>Information on public transportation options and designated driver services.</li>
+<li>Encourage the use of public transportation or designated drivers for a safe journey.</li>
