@@ -69,11 +69,10 @@ header a {
 /*Nav toggle*/
 
 nav {
-    position: absolute;
+    position: inherit;
     background-color: black;
     width: 100%;
     left: 0;
-    padding: 0 1rem;
     display: none;
     top: 100%;
 }
@@ -157,6 +156,9 @@ footer {
     #menu>li {
         padding-left: 1rem;
     }
+    header {
+        position: fixed;
+    }
 
     .nav-toggle-label {
         display: none;
@@ -193,6 +195,10 @@ footer {
         padding: 2em 2em 0 2em;
         line-height: 1.7em;
     }
+footer {
+    bottom: 0;
+    position: fixed;
+}
 }
 
 /* Media query: laptops and desktops (992 and up) */
