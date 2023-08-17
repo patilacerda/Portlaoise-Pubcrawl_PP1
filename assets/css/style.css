@@ -122,6 +122,11 @@ main {
     flex-direction: column;
 }
 
+#tours {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /*Footer*/
 footer {
     background-color: black;
@@ -199,6 +204,12 @@ footer {
         padding: 2em 2em 0 2em;
         line-height: 1.7em;
     }
+
+        #tours {
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row;
+        }
 
 footer {
     bottom: 0;
