@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,400;0,800;0,900;1,300;1,400;1,800;1,900&family=Roboto+Condensed:wght@400;700&family=Roboto+Slab:wght@300;400&display=swap');
 
+/*Asterisk wildcard selector to override default styles added by the browser*/
+* {
+}
 /*General Styles*/
 body {
     background-color: rgb(206 206 206);
@@ -174,6 +177,7 @@ footer {
     main {
         /*Push Main content down to accomodate larger header*/
         margin-top: 79px;
+        margin-bottom: 79px;
     }
 
     #cover-text {
@@ -195,6 +199,7 @@ footer {
         padding: 2em 2em 0 2em;
         line-height: 1.7em;
     }
+
 footer {
     bottom: 0;
     position: fixed;
