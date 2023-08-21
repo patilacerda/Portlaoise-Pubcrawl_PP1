@@ -250,6 +250,9 @@ footer {
     }
 
     /*Push content*/
+    .book-button {
+        padding: 2em 2em 0 2em;
+    }
     .contact-page {
         margin-top: -20px;
     }
@@ -293,6 +296,15 @@ footer {
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
+    }
+
+    #day-text {
+        text-align: left;
+        margin-left: 20px;
+    }
+    #night-text {
+        text-align: right;
+        margin-right: 20px;
     }
 
     #night-tour {

@@ -1,3 +1,4 @@
+<img src="assets/images/logo.png"> 
 <h1>Portlaoise PubCrawl</h1>
 <h2>Mission</h2>
 <p>Welcome to our PubCrawl Website! Our mission is to deliver essential information and entertainment, offering a unique day historic tour through the city and an exciting night pub tour. We prioritize responsible pub crawling to ensure a safe and enjoyable experience for all participants</p>.
