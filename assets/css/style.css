@@ -45,7 +45,7 @@ header a {
     font-weight: 200;
 }
 
-#highlight {
+.highlight {
     color: #e04500;
 }
 
@@ -128,10 +128,12 @@ img.party-image {
 
 #contact-page {
     display: flex;
+    align-items: flex-end;
     flex-wrap: wrap;
-    align-items: center;
     flex-direction: row;
     justify-content: space-between;
+    padding: 0.8em;
+    text-align: start;
 }
 
 .text-input {
@@ -146,11 +148,20 @@ label {
 input#message {
     width: 100%;
     height: 100px;
-    overflow: scroll;
 }
 iframe#iframe-contact-us {
     max-width: 100%;
 }
+
+.button-style {
+    font-family: inherit;
+    margin: 20px 0 20px 0;
+    border-radius: 6px;
+    padding: 8px 20px;
+    font-size: 100%;
+    background-color: #e04500;
+    color: rgb(206 206 206);
+    }
 
 /*Footer*/
 footer {
@@ -233,6 +244,22 @@ footer {
         line-height: 1.7em;
     }
 
+    #contact-page, #form-contact, #map {
+        flex-wrap: nowrap;
+        padding: 1em 2em;
+    }
+
+    /*Push content*/
+    .contact-page {
+        margin-top: -20px;
+    }
+    #form-contact > p {
+        padding: 0;
+    }
+    #contact-address {
+        margin-left: 26px;
+    }
+
     footer {
         bottom: 0;
         position: fixed;
@@ -259,6 +286,7 @@ footer {
     #tours {
         display: flex;
         flex-direction: column;
+        padding: 1em 2em;
     }
 
     #day-tour {
