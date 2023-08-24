@@ -19,6 +19,7 @@
 
 <body>
     <header>
+        <!--Nav Bar-->
         <a href="index.html">
             <h1 id="logo">Port<span class="highlight">laois</span>e <span id="slim">PubCrawl</span></h1>
         </a>
@@ -28,63 +29,65 @@
             <ul id="menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="index.html#tours-section">Tours</a></li>
-                <li><a href="" class="active">Contact Us</a></li>
+                <li><a href="">Contact Us</a></li>
             </ul>
         </nav>
     </header>
-
     <!--Main-->
     <main>
         <section class="contact-page">
             <h2>Plan your memorable trip</h2>
-        <div id="contact-page">
-<div id="form-contact">
-        <p>
-            For any enquires or book a private tour send us message.
-        </p>
-    <form method="POST" action="" id="signup-form">
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name" class="text-input" required>
-        <br>
-        <label for="last-name">Last Name</label>
-        <input type="text" name="last-name" id="last-name" class="text-input" required>
-        <br>
-        <label for="email-address">Email Address</label>
-        <input type="email" name="email-address" id="email-address" class="text-input" required>
-        <br>
-        <div class="radio-buttons">
-            <div>
-                <input type="radio" name="tour-type" id="day" value="day" required checked>
-                <label id="label-day-tour">Walking Day Tour</label>
+            <div id="contact-page">
+                <div id="form-contact">
+                    <p>
+                        For any enquires or book a private tour send us message.
+                    </p>
+                    <!--Form-->
+                    <form method="POST" action="" id="signup-form">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" class="text-input" required>
+                        <br>
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="last-name" id="last-name" class="text-input" required>
+                        <br>
+                        <label for="email-address">Email Address</label>
+                        <input type="email" name="email-address" id="email-address" class="text-input" required>
+                        <br>
+                        <div class="radio-buttons">
+                            <div>
+                                <input type="radio" name="tour-type" id="day" value="day" required checked>
+                                <label id="label-day-tour">Walking Day Tour</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="tour-type" id="night" value="night" required>
+                                <label id="label-night-tour">PubCrawl</label>
+                            </div>
+                        </div>
+                        <div>
+                            <input type="text" name="message" id="message" placeholder="Write your message here">
+                        </div>
+                        <div>
+                            <input type="checkbox" name="newsletter" id="newsletter" value="ads" checked>
+                            <label id="newsletter-box">Subscribe to receive our newsletter.</label>
+                        </div>
+                        <button type="submit" class="button-style">Send</button>
+                    </form>
+                </div>
+                <!--Map-->
+                <div id="map">
+                    <iframe id="iframe-contact-us"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2399.2222609194177!2d-7.302608423653736!3d53.03434269802305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485d0dc94af4bf3b%3A0x6bb60d3e7e370683!2sPortlaoise%20Tourist%20Information%20Office!5e0!3m2!1spt-BR!2sie!4v1692064586397!5m2!1spt-BR!2sie"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
-            <div>
-                <input type="radio" name="tour-type" id="night" value="night" required>
-                <label id="label-night-tour">PubCrawl</label>
+            <!--Contact-->
+            <div id="contact-address">
+                <p>+353 12 345 6789<br><span class="highlight">contact@portlaoisepubcrawl.com</span><br>Church St,
+                    Moneyballytyrrell,<br> Portlaoise, Co. Laois</p>
             </div>
-        </div>
-        <div>
-            <input type="text" name="message" id="message" placeholder="Write your message here">
-        </div>
-        <div>
-            <input type="checkbox" name="newsletter" id="newsletter" value="ads" checked>
-            <label id="newsletter-box">Subscribe to receive our newsletter.</label>
-        </div>
-        
-        <button type="submit" class="button-style">Send</button>
-    </form>
-</div>
-<div id="map">
-<iframe id="iframe-contact-us"
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2399.2222609194177!2d-7.302608423653736!3d53.03434269802305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485d0dc94af4bf3b%3A0x6bb60d3e7e370683!2sPortlaoise%20Tourist%20Information%20Office!5e0!3m2!1spt-BR!2sie!4v1692064586397!5m2!1spt-BR!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-    ></iframe>
-</div>
-</div>
-<div id="contact-address">
-    <p>+353 12 345 6789<br><span class="highlight">contact@portlaoisepubcrawl.com</span><br>Church St, Moneyballytyrrell,<br> Portlaoise, Co. Laois</p>
-</div>
-</section>
-</main>
-
+        </section>
+    </main>
     <!--Footer-->
     <footer>
         <ul id="social-networks">
@@ -97,7 +100,6 @@
                     aria-label="Visit our Instagram page (opens in a new tab)"><i
                         class="fa-brands fa-instagram"></i></a>
             </li>
-
             <li>
                 <a href="https://www.discord.com/" target="_blank" rel="noopener"
                     aria-label="Visit our Discord server (opens in a new tab)"><i class="fa-brands fa-discord"></i></a>
@@ -112,4 +114,20 @@
     <script src="https://kit.fontawesome.com/467e25aa0a.js" crossorigin="anonymous"></script>
 </body>
 
+</html>             aria-label="Visit our Instagram page (opens in a new tab)"><i
+                  class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+               <a href="https://www.discord.com/" target="_blank" rel="noopener"
+                  aria-label="Visit our Discord server (opens in a new tab)"><i class="fa-brands fa-discord"></i></a>
+            </li>
+            <li>
+               <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                  aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-x-twitter"></i></a>
+            </li>
+         </ul>
+      </footer>
+      <!--Font awesome kit-->
+      <script src="https://kit.fontawesome.com/467e25aa0a.js" crossorigin="anonymous"></script>
+   </body>
 </html>
