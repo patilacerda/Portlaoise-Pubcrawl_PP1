@@ -64,6 +64,7 @@ header a {
     color: #e04500;
 }
 
+
 /*Nav bar*/
 #menu {
     font-size: 110%;
@@ -75,14 +76,19 @@ header a {
     margin-bottom: 1em;
 }
 
+.active {
+    border-bottom: 1px solid rgb(206 206 206);
+}
+
 /*Nav toggle*/
 nav {
-    position: inherit;
+    position: absolute;
     background-color: black;
     width: 100%;
     left: 0;
     display: none;
     top: 100%;
+    padding: 0px 1px;
 }
 
 #nav-toggle:checked~nav {
@@ -299,7 +305,7 @@ footer {
     #menu>li:hover {
             border-bottom: 1px solid rgb(206 206 206);
         }
-
+        
     #cover-text {
         padding: 6% 0% 17% 0%;
     }
