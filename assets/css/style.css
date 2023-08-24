@@ -75,10 +75,6 @@ header a {
     margin-bottom: 1em;
 }
 
-.active {
-    border-bottom: 1px solid rgb(206 206 206);
-}
-
 /*Nav toggle*/
 nav {
     position: inherit;
@@ -300,6 +296,10 @@ footer {
 
 /* Media query: laptops and desktops (992 and up) */
 @media screen and (min-width: 992px) {
+    #menu>li:hover {
+            border-bottom: 1px solid rgb(206 206 206);
+        }
+
     #cover-text {
         padding: 6% 0% 17% 0%;
     }
