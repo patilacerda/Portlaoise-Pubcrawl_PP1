@@ -5,7 +5,7 @@
 <h2>Mission:</h2>
 
 <p>Welcome to our PubCrawl Website! Our mission is to deliver essential information and entertainment, offering a unique day historic tour through the city and an exciting night pub tour. Ensuring a safe and enjoyable experience for all participants.</p>
-<a href="https://patilacerda.github.io/Portlaoise-Pubcrawl_PP1/index.html">View the deployed project here.</a>
+<a href="https://patilacerda.github.io/Portlaoise-Pubcrawl_PP1/index.html" target="_blank">View the deployed project here.</a>
 
 <h2 align="center"><img src="assets/images/responsive-img.webp"></h2>
 
@@ -90,6 +90,20 @@
 
 <h3>Wireframes</h3>
 
+<p>Wireframes created using Balsamiq.</p>
+
+<details>
+<summary>Desktop Wireframe</summary>
+
+![Desktop Wireframe](assets/images/index_desktop.png)
+</details>
+
+<details>
+<summary>Mobile Wireframe</summary>
+
+![Mobile Wireframe](assets/images/phone.png)
+</details>
+
 <h3>Design</h3>
 
 <ul>
@@ -100,7 +114,8 @@
 </ul>
 <li>Colour Scheme</li>
 <ul>
-<li>The neutral gray and black were chosen to create a stable and sophisticated foundation for the website, allowing historical content to take center stage making all the pages look like a film frame. The addition of the vibrant orange injects energy capturing the essence of illuminated night streets , draws attention to key elements, and adds a touch of creativity to the overall design.</li>
+<li>The neutral gray and black were chosen to create a stable and sophisticated foundation for the website, allowing historical content to take center stage making all the pages look like a film frame. The addition of the vibrant orange injects energy capturing the essence of illuminated night streets , draws attention to key elements, and adds a touch of creativity to the overall design.</li><br>
+<p align="center"><img src="assets/images/colour_scheme.webp"></p>
 </ul>
 </ul>
 
@@ -108,23 +123,25 @@
 
 <h3>Languages</h3>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/HTML5">HTML5</a></li>
-<li><a href="https://en.wikipedia.org/wiki/CSS">CSS3</a></li>
+<li><a href="https://en.wikipedia.org/wiki/HTML5" target="_blank">HTML5</a></li>
+<li><a href="https://en.wikipedia.org/wiki/CSS" target="_blank">CSS3</a></li>
 </ul>
 
 <h3>Frameworks, Libraries and Programms Used</h3>
 <ul>
-<li><a href="https://fonts.google.com/">Google Fonts</a> - Provide all of the fonts for this website.</li>
-<li><a href="https://fontawesome.com/">Font Awesome</a> - Used for the site icos.</li>
-<li><a href="https://www.adobe.com/ie/products/photoshop.html">Photoshop</a> - Used to compress images to reduce file size without a reduction in quality.</li>
-<li><a href="https://www.adobe.com/ie/products/illustrator.html">Illustrator</a> - Used to create the logo.</li>
-<li><a href="https://git-scm.com/">Git</a> - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.</li>
-<li><a href="https://github.com/patilacerda">Github</a> - Used to hosting the code.</li>
-<li><a href="https://balsamiq.com/">Balsamiq</a> - Used to create site wireframes.</li>
-<li><a href="https://google-map-generator.com/">Google map generator</a> - Used to import business location.</li>
-<li><a href="http://ami.responsivedesign.is/">Am I Responsive</a> - Used to check if the site is responsive on different screen sizes.</li>
-<li><a href="http://www.responsinator.com/">Responsinator</a> - Used to check if the site is responsive on different screen sizes.</li>
-<li><a href="https://developer.chrome.com/docs/devtools/">Chrome Dev Tools</a>- Used for overall development and tweaking, including testing responsiveness and performance.</li>
+<li><a href="https://fonts.google.com/" target="_blank">Google Fonts</a> - Provide all of the fonts for this website.</li>
+<li><a href="https://fontawesome.com/" target="_blank">Font Awesome</a> - Used for the site icos.</li>
+<li><a href="https://favicon.io/" target="_blank">Favicon</a> - Used to generate favicon folder.</li>
+<li><a href="https://www.adobe.com/ie/products/photoshop.html" target="_blank">Photoshop</a> - Used to compress images to reduce file size without a reduction in quality.</li>
+<li><a href="https://www.adobe.com/ie/products/illustrator.html" target="_blank">Illustrator</a> - Used to create the logo and favicon.</li>
+<li><a href="https://git-scm.com/" target="_blank">Git</a> - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.</li>
+<li><a href="https://github.com/patilacerda" target="_blank">Github</a> - Used to hosting the code.</li>
+<li><a href="https://balsamiq.com/" target="_blank">Balsamiq</a> - Used to create site wireframes.</li>
+<li><a href="https://google-map-generator.com/" target="_blank">Google map generator</a> - Used to import business location.</li>
+<li><a href="http://ami.responsivedesign.is/" target="_blank">Am I Responsive</a> - Used to check if the site is responsive on different screen sizes.</li>
+<li><a href="http://www.responsinator.com/" target="_blank">Responsinator</a> - Used to check if the site is responsive on different screen sizes.</li>
+<li><a href="https://developer.chrome.com/docs/devtools/" target="_blank">Chrome Dev Tools</a>- Used for overall development and tweaking, including testing responsiveness and performance.</li>
+<li><a href="https://www.freeformatter.com/html-formatter.html" target="_blank">Free Online HTML Formatter</a> - Used to correct indentation issues and get rid of unnecessary whitespace</li>
 </ul>
 
 <h2>Testing</h2>
@@ -132,9 +149,10 @@
 <h3>Validating</h3>
 
 <ul>
-<li>HTML - No errors were returned when passing through the official <a href="https://validator.w3.org/nu/">W3C Markup Validator</a>.</li>
-<li>CSS - No errors were found when passing through the official <a href="https://jigsaw.w3.org/css-validator/">W3C CSS Validator</a>.</li>
-<li>Accessibility - </li>
+<li>HTML - No errors were returned when passing through the official <a href="https://validator.w3.org/nu/" target="_blank">W3C Markup Validator</a>.</li>
+<li>CSS - No errors were found when passing through the official <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS Validator</a>.</li>
+<li>Accessibility - 95% average performance on lighthouse.</li>
+<p><img src="assets/images/lighthouse.webp" align="center"></p>
 </ul>
 
 <h3>Further Testing</h3>
@@ -166,12 +184,12 @@
 
 <h3>Content</h3>
 
-<p>All content was sourced from <a href="https://laoistourism.ie/">Laois Tourism</a> website.</p>
+<p>All content was sourced from <a href="https://laoistourism.ie/" target="_blank">Laois Tourism</a> website.</p>
 <p>Dropdown nav bar and footer inspired from “Love Running” Project.</p>
 
 <h3>Media</h3>
 
-<p>All the images were sourced from <a href="https://www.flickr.com/photos/williampaiva/">William Paiva - Photographer Flickr page</a> and his personal archive.</p>
+<p>All the images were sourced from <a href="https://www.flickr.com/photos/williampaiva/" target="_blank">William Paiva - Photographer Flickr page</a> and his personal archive.</p>
 
 <h3>Acknowlegdments</h3>
 
